@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/RecipeFullViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/RecipeFullViewTitle"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <TextView
+        android:id="@+id/RecipeFullViewSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RecipeFullViewSummary"
+        app:layout_constraintTop_toBottomOf="@+id/RecipeFullViewTitle"
+        android:layout_marginBottom="4dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/RecipeFullViewIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RecipeFullViewIngredients"
+        app:layout_constraintTop_toBottomOf="@+id/RecipeFullViewSummary"
+        android:layout_marginBottom="4dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/RecipeFullViewInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RecipeFullViewInstructions"
+        app:layout_constraintTop_toBottomOf="@+id/RecipeFullViewIngredients"
+        android:layout_marginBottom="4dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/RecipeFullViewCreditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RecipeFullViewCreditText"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph10"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.gingerbreadcooking.WeekMealPlanFrag1"
+        android:label="@string/first_mealplan_fragment_label"
+        tools:layout="@layout/week_meal_plan_fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.gingerbreadcooking.WeekMealPlanFrag2"
+        android:label="@string/second_mealplan_fragment_label"
+        tools:layout="@layout/week_meal_plan_fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="com.example.gingerbreadcooking.WeekMealPlanFrag3"
+        android:label="@string/third_mealplan_fragment_label"
+        tools:layout="@layout/week_meal_plan_fragment_third">
+
+        <action
+            android:id="@+id/action_ThirdFragment_to_FourthFragment"
+            app:destination="@id/FourthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FourthFragment"
+        android:name="com.example.gingerbreadcooking.WeekMealPlanFrag4"
+        android:label="@string/fourth_mealplan_fragment_label"
+        tools:layout="@layout/week_meal_plan_fragment_fourth">
+
+        <action
+            android:id="@+id/action_FourthFragment_to_FifthFragment"
+            app:destination="@id/FifthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FifthFragment"
+        android:name="com.example.gingerbreadcooking.WeekMealPlanFrag5"
+        android:label="@string/fifth_mealplan_fragment_label"
+        tools:layout="@layout/week_meal_plan_fragment_fifth">
+
+        <action
+            android:id="@+id/action_FifthFragment_to_SixthFragment"
+            app:destination="@id/SixthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SixthFragment"
+        android:name="com.example.gingerbreadcooking.WeekMealPlanFrag6"
+        android:label="@string/sixth_mealplan_fragment_label"
+        tools:layout="@layout/week_meal_plan_fragment_sixth">
+
+        <action
+            android:id="@+id/action_SixthFragment_to_SeventhFragment"
+            app:destination="@id/SeventhFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SeventhFragment"
+        android:name="com.example.gingerbreadcooking.WeekMealPlanFrag7"
+        android:label="@string/seventh_mealplan_fragment_label"
+        tools:layout="@layout/week_meal_plan_fragment_seventh">
+
+        <action
+            android:id="@+id/action_SeventhFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>

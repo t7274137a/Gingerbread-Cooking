@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screens.PrivacyStatementActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Privacy statement"
+                android:textSize="20dp"
+                android:layout_margin="20dp"
+                android:textColor="#FF0000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Preface"
+                android:gravity="fill_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="fill_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"
+                android:text="Preface
+Optibelt GmbH (hereinafter referred to as:), as the operator of the website, is responsible for processing the personal data of users who visit the website. Our contact details can be found in the legal notice of the website, and contact persons for questions regarding the processing of personal data are named directly in this data privacy statement.
+
+We take the protection of your privacy and your private data very seriously. We collect, store and use your personal data only in accordance with the content of this data privacy statement and the applicable data protection regulations, in particular the European General Data Protection Regulation (GDPR) and national data protection regulations.
+
+With this data privacy statement, we would like to inform you to what extent and for what purpose personal data is processed in connection with the use of the website."
+                   />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Personal data"
+                android:gravity="fill_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Personal data is information about an identified or identifiable natural person. This includes all information about your identity, such as your name, email address or postal address. However, information that cannot be associated with your identity (for example, statistical information, such as the number of online users) is not considered personal information.
+
+You can use our website without disclosing your identity and without providing personal data. We will then only collect general information about your visit to our website. For some of the services offered, however, personal data is collected from you. This data will then only be processed by us for purposes of using this website, in particular for providing the desired information. When entering personal data, only mandatory data must be provided. Further information may also be provided on a voluntary basis. In each case, we point out whether it concerns mandatory fields or voluntary data. We will inform you about the specific details in the relevant section of this data privacy statement."
+                android:gravity="fill_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/browser_actions_divider_color"
+        android:gravity="center"
+        android:text="Advertisment here"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

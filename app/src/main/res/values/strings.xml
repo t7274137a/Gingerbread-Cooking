@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Gingerbread Cooking</string>
+    <string name="mealPlanButton">7-Day Meal Plan</string>
+    <string name="shoppingListButton">Shopping List</string>
+    <string name="currentItemsButton">Current Items</string>
+    <string name="availableRecipesButton">Available Recipes</string>
+    <string name="findRecipesButton">Find Recipes</string>
+    <string name="favouriteRecipesButton">Favourite Recipes</string>
+    <string name="forumButton">Forum</string>
+    <string name="addRecipeButton">Add Recipe</string>
+    <string name="title_activity_meal_plan">MealPlan</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_mealplan_fragment_label">Monday</string>
+    <string name="second_mealplan_fragment_label">Tuesday</string>
+    <string name="third_mealplan_fragment_label">Wednesday</string>string
+    <string name="fourth_mealplan_fragment_label">Thursday</string>string
+    <string name="fifth_mealplan_fragment_label">Friday</string>string
+    <string name="sixth_mealplan_fragment_label">Saturday</string>string
+    <string name="seventh_mealplan_fragment_label">Sunday</string>string
+    <string name="first_fragment_label">Wednesday</string>string
+    <string name="second_fragment_label">Wednesday</string>string
+    <string name="shopping_list_text_example">Add Groceries e.g. Eggs</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_shopping_list">ShoppingList</string>
+    <string name="title_activity_current_ingredients">CurrentIngredients</string>
+    <string name="title_activity_available_recipes">AvailableRecipes</string>
+    <string name="title_activity_find_recipe">FindRecipe</string>
+    <string name="title_activity_favourite_recipes">FavouriteRecipes</string>
+    <string name="title_activity_forum">Forum</string>
+    <string name="title_activity_add_recipe">AddRecipe</string>
+    <string name="title_activity_week_meal_plan">WeekMealPlan</string>
+    <string name="title_activity_current_groceries">CurrentGroceries</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Login Page -->
+    <string name="LoginEmail">Enter email address</string>
+    <string name="LoginPassword">Enter your password</string>
+    <string name="LoginButton">Login</string>
+    <string name="SignupButton">Signup</string>
+    <string name="GuestLoginButton">Guest Login</string>
+    <!-- Sign up Page -->
+    <string name="SignupEmail">Enter email address</string>
+    <string name="SignupPassword">Enter your password</string>
+    <string name="LoginPageButton">Login Page</string>
+    <string name="SignupConfirmButton">Sign up</string>
+    <string name="RecipeTitle">Recipe Name</string>
+    <string name="RecipeDescription">Description of the Recipe</string>
+    <string name="RecipeFullViewTitle">Recipe Full Title</string>
+    <string name="RecipeFullViewSummary">Full Summary of the Recipe</string>
+    <string name="RecipeFullViewIngredients">The Full Ingredients List for the recipe</string>
+    <string name="RecipeFullViewInstructions">Full instrustions to make the recipes</string>
+    <string name="RecipeFullViewCreditText">This recipe is from</string>
+    <string name="title_activity_recipe_full_view">RecipeFullView</string>
+    <string name="logout">logout</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "990328587154",
+    "project_id": "gingerbreadcooking-e890e",
+    "storage_bucket": "gingerbreadcooking-e890e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990328587154:android:fb6ac0ad1565f04a64f74b",
+        "android_client_info": {
+          "package_name": "com.example.gingerbreadcooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990328587154-6k8pb9ndljg5d531pnj6r2ov59dav9pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB7AWwQAWzG-N4TvicsO1cD5xIeCSeVaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990328587154-6k8pb9ndljg5d531pnj6r2ov59dav9pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
